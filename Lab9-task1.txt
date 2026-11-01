@@ -1,0 +1,14 @@
+83 ?- Output = true.
+Output = true.
+
+84 ?- eval_expr(true, true, Output).
+Output = true.
+
+85 ?- eval_expr(true, false, Output).
+Output = false.
+
+86 ?- eval_expr(false, true, Output).
+Output = false.
+
+87 ?- eval_expr(false, false, Output).
+Output = true.

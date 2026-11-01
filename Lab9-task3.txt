@@ -1,0 +1,8 @@
+91 ?- calculate_total_and_average.
+Enter first number: 7.
+Enter second number: |: 8.
+Enter third number: |: 9.
+
+Total = 24
+Average = 8
+true.
